@@ -1,7 +1,7 @@
-python == 3.8
-cmake == 3.21.4
-dlib == 19.22.1
-opencv-python == 4.5.4.60
+python==3.8.10
+cmake==3.21.4
+dlib==19.22.1
+opencv-python==4.5.4.60
 face_recogniton
-cvzone == 1.5.6
+cvzone==1.5.6
 firebase_admin
