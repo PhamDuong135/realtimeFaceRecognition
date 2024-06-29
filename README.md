@@ -7,10 +7,11 @@
 pip install -r Reference.txt
 ```
 ## Set up for DataBase
-Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
-1. Generate a private key in Firebase
-2. Rename it to serviceAccountKey.json
-3. Copy this file to Project
+1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
+2. Change url database in main.py
+3. Generate a private key in Firebase
+4. Rename it to serviceAccountKey.json
+5. Copy this file to Project
 
 ## Run Application
 1. Run file main.py to start application
