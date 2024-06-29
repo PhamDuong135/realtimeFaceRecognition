@@ -7,7 +7,7 @@
 pip install -r Reference.txt
 ```
 ## Set up for DataBase
-Create a database on Firebase [(FireBase)(https://console.firebase.google.com/u/0/]
+Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
 1. Generate a private key in Firebase
 2. Rename it to serviceAccountKey.json
 3. Copy this file to Project
