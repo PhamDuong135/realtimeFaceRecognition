@@ -1,6 +1,6 @@
 # realtimeFaceRecognition
 ## Set up for Python
-1. Install Python: ([Download](https://www.python.org))
+1. Install Python (version 3.8): ([Download](https://www.python.org))
 
 2. Install Python packages:
 ```
