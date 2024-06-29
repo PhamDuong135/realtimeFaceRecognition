@@ -2,10 +2,7 @@
 ## Set up for Python
 1. Install Python or run it on virtual env (version 3.8) : ([Download](https://www.python.org))
 
-2. Install Python packages:
-```
-pip install -r Reference.txt
-```
+2. Install all Python packages in Reference.txt
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
 2. Generate a private key in Firebase
