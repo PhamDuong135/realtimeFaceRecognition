@@ -14,14 +14,18 @@
 
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
-2. Generate a private key in Firebase
+2. Create Realtime Database and Storage:
+
+![image](https://github.com/user-attachments/assets/940b8b0b-84e2-47a8-9b29-7b7a310c069d)
+
+3. Generate a private key in Firebase:
 
 ![image](https://github.com/user-attachments/assets/c6a95a1f-2137-432a-9256-33e6b265092e)
 
-3. Rename it to serviceAccountKey.json
-4. Copy this file to Project
-5. Change cred = credentials.Certificate(path to serviceAccountKey.json location) in main.py
-6. Change url database, storageBucket in firebase_admin.initialize_app(...)
+4. Rename it to serviceAccountKey.json
+5. Copy this file to Project
+6. Change cred = credentials.Certificate(path to serviceAccountKey.json location) in main.py
+7. Change url database, storageBucket in firebase_admin.initialize_app(...)
 
 ## Run Application
 1. Run file main.py to start application
