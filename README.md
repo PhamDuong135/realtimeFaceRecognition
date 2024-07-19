@@ -9,14 +9,19 @@
 1. Install Visual Studio Community Ver
 2. Select Desktop development with C++ in Visual Studio Installer
 
+![image](https://github.com/user-attachments/assets/3a24dee2-32ef-478f-824d-162489509408)
+
+
 ## Set up for DataBase
 1. Create a database on Firebase ([FireBase](https://console.firebase.google.com/u/0/))
 2. Generate a private key in Firebase
+
 ![image](https://github.com/user-attachments/assets/c6a95a1f-2137-432a-9256-33e6b265092e)
-4. Rename it to serviceAccountKey.json
-5. Copy this file to Project
-6. Change cred = credentials.Certificate(path to serviceAccountKey.json location) in main.py
-7. Change url database, storageBucket in firebase_admin.initialize_app(...)
+
+3. Rename it to serviceAccountKey.json
+4. Copy this file to Project
+5. Change cred = credentials.Certificate(path to serviceAccountKey.json location) in main.py
+6. Change url database, storageBucket in firebase_admin.initialize_app(...)
 
 ## Run Application
 1. Run file main.py to start application
